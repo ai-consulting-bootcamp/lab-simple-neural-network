@@ -1,23 +1,19 @@
 # Build Simple Neural Network
 
-**Track:** Module 1 — ML & neural networks · **When:** Week 1, Day 4 · **Status:** Optional / Extra
+## Part 1: Dog/Cat Classifier
 
-This repository contains everything you need for this lab.
+Built a neural network using the CIFAR-10 dataset, filtered to cats and dogs.
 
-## Files
+- Training images: 10,000
+- Test images: 2,000
+- Final test accuracy: 62.85%
+- Model format: `.keras`
+- Weights: `.weights.h5`
 
-- [`instructions.md`](./instructions.md) — the lab instructions
-- [`rubric.md`](./rubric.md) — how your submission is graded; this is what the AI reviewer checks your PR against
+Experiments tested a smaller network, a wider network, and a lower learning rate. The original model performed best.
 
-## How to complete this lab
+## Part 2: Audio Classification
 
-1. **Fork** this repository.
-2. Do the work described in `instructions.md`, committing to your fork.
-3. Open a **pull request** back into this repository.
-4. You'll receive **AI feedback** on your PR based on `rubric.md`. Address any blocking feedback and push updates to the same PR.
+Used the SUPERB keyword-spotting dataset and a pre-trained Wav2Vec2 audio classifier. The model was tested on 20 audio samples and achieved 100% accuracy on that sample.
 
-## Submission hygiene
-
-- Keep this repository scoped to this lab only — no unrelated projects or personal files.
-- Use clear, descriptive filenames.
-- Remove secrets, API keys, and tokens before committing.
+See `dog_cat_classifier.ipynb` for the complete code, outputs, experiments, predictions, and reflection.
