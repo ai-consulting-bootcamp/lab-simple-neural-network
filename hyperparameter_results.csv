@@ -1,0 +1,4 @@
+name,first_layer,second_layer,learning_rate,batch_size,final_validation_accuracy,test_accuracy
+Smaller network,64,32,0.001,32,0.5839999914169312,0.6035000085830688
+Larger network,256,128,0.001,32,0.6000000238418579,0.5985000133514404
+Lower learning rate,128,64,0.0005,32,0.5874999761581421,0.6054999828338623
